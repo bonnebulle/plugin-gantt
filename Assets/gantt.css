@@ -134,3 +134,68 @@ div.ganttview-progress-bar {
     bottom: 0;
     opacity: 0.4;
 }
+
+/* Ajouts bonnebulle */
+
+div.ganttview-block-text {
+            height: 22px !important;
+    color: #000 !important;
+    line-height: 23px !important;
+    font-size: 12px !important;
+width: 100% !important;
+}
+div.ganttview-block{
+   min-width: 20px;
+}
+div.ganttview-block-container {
+    height: 31px!important;
+    padding-top: 4px!important;
+}
+div.ganttview-progress-bar {
+        opacity: 0 !important;
+}
+.ganttview-vtheader-series-name .tooltip + strong {
+    min-width: 50px;
+    display: inline-block;
+    font-weight: normal;
+}
+
+div.ganttview-hzheader-day,
+div.ganttview-grid-row-cell {
+   width: 21px!important;
+}
+.ganttview-hzheader-day.onefirst,
+.ganttview-grid-row-cell.onefirst {
+    border-left: 1px solid #d1d1d1;
+}
+div.ganttview-hzheader-day {
+    color: #bcbcbc;
+    font-size: 10px;
+}
+.ganttview-grid-row:hover > * {
+    background: #f4f4f4 !important;
+}
+.ganttview-grid-row-cell.ganttview-weekend.onefirst {
+    border-left: 1px solid #e2e2e2;
+}
+div.ganttview-vtheader-series-name a {
+    color: #898989 !important;
+    font-weight: normal;
+}
+.ganttview-hzheader-day.today {
+    background-color: #fcf8e3 !important;
+}
+div.ganttview-hzheader-month.last,
+div.ganttview-hzheader-day.last,
+.ganttview-grid {
+    border-right: 1px solid #d1d1d1 !important;
+}
+div.ganttview-hzheader-month {
+    border-left: 0px solid #d1d1d1 !important;
+}
+.ganttview-hzheader-month:first-child {
+    border-left: 0px!important;
+}
+.ganttview-vtheader-series-name:last-child {
+    border-bottom: 1px solid #b4b4b4 !important;
+}
